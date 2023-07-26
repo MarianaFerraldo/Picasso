@@ -1,0 +1,133 @@
+body {
+    background-color: antiquewhite;
+    margin: 2rem ;
+    padding: 1rem;
+}
+
+div {
+    padding: 1px;
+    text-align: center;
+}
+
+@media screen and (min-width: 320px) {
+.container {
+    display: grid;
+    grid-template-rows: repeat(5, 25%);
+    grid-template-columns: repeat(5);
+    grid-gap: 0.5px;
+}
+}
+
+.box1 {
+    grid-row-start:1 ;
+    grid-row-end:1 ;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    margin: 1rem;
+    justify-self: stretch;
+}
+
+.box2 {
+    grid-row-start: 1;
+    grid-row-end:1 ;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin: 1rem;
+    justify-self: stretch;
+}
+
+.box3 {
+    grid-row-start:1 ;
+    grid-row-end: 1 ;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    margin: 1rem;
+    justify-self: stretch;
+}
+
+.box4 {
+    grid-row-start:1 ;
+    grid-row-end: 1 ;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    margin: 1rem;
+    justify-self: stretch;
+
+}
+
+.box5 {
+    grid-row-start:1 ;
+    grid-row-end: 1 ;
+    grid-column-start: 5;
+    grid-column-end: 5;
+    margin: 1rem;
+    justify-self: stretch;
+}
+
+.box6 {
+    grid-row-start:2 ;
+    grid-row-end: 2 ;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    margin: 1cm 1cm 1cm 1cm ;
+    justify-self: stretch;
+    justify-content: center;
+    
+}
+
+.box7 {
+    z-index: 5;
+    position: absolute;
+    width: 150px;
+    height: 300px;
+    top: 400px;
+    left: 270px;
+    
+  
+}
+
+.box8 {
+    z-index: 5;
+    position: absolute;
+    width: px;
+    height: 300px;
+    top: 500px;
+    left: 270px;
+}
+
+.links {
+    background-color: #BCD3C9;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    padding: 1px 1px 1px 1px;
+    font-family: 'sans-serif';
+    color: antiquewhite;
+    font-size:20px;
+    text-align: center;
+    position: fixed;
+}
+
+@media screen and (min-width: 320px) {
+.links a {
+    background-color: #BCD3C9;
+    font-family: 'sans-serif';
+    color: antiquewhite;
+    font-size:20px;
+}
+}
+
+@media screen and (min-width: 320px) {
+.form2 {
+    align-self: center;
+    background-color: #BCD3C9;
+    padding: 40px;
+    text-align: center;
+   
+}
+}
+
+.submit{
+    background: seashell;
+    border-radius: 1px;
+}
